@@ -1,0 +1,8 @@
+(defun reload () (load "pe3.lisp"))
+
+;;pe3
+;;largest prime factor of 600851475143
+(defun is-prime? (n)
+  (loop with i = 3 do
+       (setf i (+ i 2))
+       
